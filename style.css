@@ -53,6 +53,6 @@ nav img{
     transition: 0.5s;
 }
 
-.nav-links ul li::hover::after{
+.nav-links ul li:hover::after{
     width: 100%;
 }
