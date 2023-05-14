@@ -135,12 +135,13 @@ nav .fa{
 
 .vision-col p{
     padding: 0;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .vision-col h3{
     margin-top: 15px;
     margin-bottom: 15px;
     text-align: left;
-    font-size: 28px;
+    font-size: 25px;
+    text-shadow: #def;
 }
