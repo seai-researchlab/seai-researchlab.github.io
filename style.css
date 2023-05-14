@@ -81,7 +81,7 @@ nav .fa{
     display: none;
 }
 
-@media(max-width: 940px){
+@media(max-width: 700px){
     .text-box h1{
         font-size: 30px;
     }
