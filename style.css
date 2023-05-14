@@ -129,7 +129,7 @@ nav .fa{
 }
 
 .vision h2{
-    font-size: 28px;
+    font-size: 40px;
 }
 
 .vision p{
@@ -141,10 +141,12 @@ nav .fa{
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
+    box-sizing: border-box;
+    transition: 0.5s;
 }
 
 .vision-col1 img{
-    width: 100%;
+    width: 95%;
     border-radius: 10px;
 }
 
@@ -165,6 +167,9 @@ nav .fa{
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
+    box-sizing: border-box;
+    transition: 0.5s;
+
 }
 
 .vision-col2 img{
@@ -189,6 +194,8 @@ nav .fa{
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
+    box-sizing: border-box;
+    transition: 0.5s;
 }
 
 .vision-col3 img{
@@ -206,4 +213,16 @@ nav .fa{
     margin-bottom: 15px;
     text-align: left;
     font-size: 22px;
+}
+
+.vision-col1:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.vision-col2:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.vision-col3:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
