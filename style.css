@@ -81,4 +81,17 @@ nav img{
     .text-box h1{
         font-size: 40px;
     }
+
+    .nav-links ul li{
+        display: block;
+    }
+
+    .nav-links{
+        position: absolute;
+        background: #f44336;
+        height: 110vh;
+        width: 200px;
+        top: 0;
+        right: 0;
+    }
 }
