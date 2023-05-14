@@ -129,6 +129,10 @@ nav .fa{
     text-align: left;
 }
 
+.vision-col img{
+    border-radius: 10px;
+}
+
 .vision-col p{
     padding: 0;
 }
