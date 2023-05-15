@@ -5,7 +5,7 @@
 }
 
 .header{
-    min-height: 100vh;
+    min-height: 75vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/back/opt1.jpeg);
     background-position: center;
@@ -61,14 +61,14 @@ nav img{
     width: 90%;
     color: #fff;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;  
 }
 
 .text-box h1{
-    font-size: 70px;
+    font-size: 60px;
 }
 
 .text-box p{
@@ -84,6 +84,10 @@ nav .fa{
 @media(max-width: 700px){
     .text-box h1{
         font-size: 30px;
+    }
+
+    .row{
+        flex-direction: column;
     }
 
     .nav-links ul li{
@@ -209,22 +213,6 @@ nav .fa{
     font-size: 22px;
 }
 
-.news-lines h2{
-    font-size: 45px;
-    padding-bottom: 10px;
-}
-
-.news-lines ul{
-    line-height: 1.5;
-    margin-left: 50px;
-}
-
-.news-lines ul li{
-    padding-top: 20px;
-    font-size: 22px;
-    text-align: left;
-}
-
 .news{
     width: 80%;
     color: #fff;
@@ -236,4 +224,17 @@ nav .fa{
     left: 52%;
     transform: translate(-60%, -40%);
     text-align: left;  
+}
+
+.news-lines h2{
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+
+.news-lines ul li{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 20px;
+    font-size: 22px;
+    text-align: left;
 }
