@@ -14,12 +14,12 @@
 }
 
 .news-header{
-    min-height: 100vh;
+    min-height: max-content;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/back/opt1.jpeg);
     background-position: center;
     background-size: 100%;   
-    position: relative;
+    position: fixed;
 }
 
 nav{
@@ -221,7 +221,7 @@ nav .fa{
 .news{
     width: 80%;
     color: black;
-    position: fixed;
+    position:fixed;
     padding-left: 7%;
     padding-top: 10%;
     top: 30%;
