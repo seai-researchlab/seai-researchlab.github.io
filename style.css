@@ -209,6 +209,22 @@ nav .fa{
     font-size: 22px;
 }
 
+.news-lines h2{
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+
+.news-lines ul{
+    line-height: 1.5;
+    margin-left: 50px;
+}
+
+.news-lines ul li{
+    padding-top: 20px;
+    font-size: 22px;
+    text-align: left;
+}
+
 .news{
     width: 80%;
     color: #fff;
@@ -220,19 +236,4 @@ nav .fa{
     left: 52%;
     transform: translate(-60%, -40%);
     text-align: left;  
-}
-
-.news h2{
-    font-size: 45px;
-    padding-bottom: 10px;
-}
-
-ul{
-    line-height: 1.8;
-    margin-left: 50px;
-    font-size: 20px;
-}
-  
-ul li:not(:last-child){
-    margin-bottom: 20px;
 }
