@@ -208,3 +208,17 @@ nav .fa{
     text-align: left;
     font-size: 22px;
 }
+
+.news{
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;  
+}
+
+.news h2{
+    font-size: 50px;
+}
