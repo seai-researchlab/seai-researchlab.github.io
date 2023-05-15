@@ -13,15 +13,6 @@
     position: relative; 
 }
 
-.news-header{
-    min-height: max-content;
-    width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/back/opt1.jpeg);
-    background-position: center;
-    background-size: 100%;   
-    position: fixed;
-}
-
 nav{
     display: flex;
     padding: 2% 6%;
@@ -220,9 +211,10 @@ nav .fa{
 
 .news{
     width: 80%;
-    color: black;
+    color: #fff;
     position:fixed;
     padding-left: 7%;
+    margin-top: 20px;
     padding-top: 10%;
     top: 30%;
     left: 52%;
@@ -238,7 +230,7 @@ nav .fa{
 ul{
     line-height: 1.8;
     margin-left: 50px;
-    font-size: large;
+    font-size: 20px;
 }
   
 ul li:not(:last-child){
