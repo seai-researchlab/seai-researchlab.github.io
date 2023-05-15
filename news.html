@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>SE+AI Research Lab</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="img/logo/logosmall.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a>></li>
+                    <li><a href="news.html">News</a>></li>
+                    <li><a href "">Team</a>></li>
+                    <li><a href "">Projects</a>></li>
+                    <li><a href "">Publications</a>></li>
+                    <li><a href "">Opportunities</a>></li>
+                    <li><a href "">Partners</a>></li>
+                    <li><a href "">Contact</a>></li>
+                </ul>
+            </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Welcome to the SE+AI Research Lab</h1>
+            <p>We apply artificial intelligence-based methods and techniques <br>to assist designers and developers in building high-quality software systems.</p>
+        </div>
+    </section>
+
+    <section class="vision">
+        <h2> Our Vision</h2>
+        <p>We focus on core aspects of software quality and software maintenance and evolution. We aim to leverage artificial intelligence. </p>
+       
+        <div class="row">
+            <div class="vision-col1">
+                <img src="img/mission/mission1.jpg">
+                <h3>Improved Software Quality</h3>
+                <p>Minimize software quality assurance overhead and improve software (design and implementation) quality.</p>
+            </div>
+            <div class="vision-col2">
+                <img src="img/mission/mission2.png">
+                <h3>Easy Software Maintenane and Evolution</h3>
+                <p>Facilitate software maintenance and evolution in the long run by assisting in producing quality software systems.</p>
+            </div>
+            <div class="vision-col3">
+                <img src="img/mission/mission3.jpeg">
+                <h3>Artificial Intelligence Driven</h3>
+                <p>Leverage artificial intelligence in supporting design and development of quality software systems.</p>
+            </div>    
+        </div>
+    </section>
+
+    <!------TavaScript for Toggle Menu ------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
