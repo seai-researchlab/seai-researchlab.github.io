@@ -14,7 +14,7 @@
 }
 
 .news-header{
-    min-height: max-content;
+    min-height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/back/opt1.jpeg);
     background-position: center;
