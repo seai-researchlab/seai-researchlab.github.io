@@ -30,10 +30,53 @@
             </div>
                 <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
-        
+        <div class="text-box">
+            <h1>Contact Us</h1>
+        </div>
     </section>
 
     
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2774.0723998137455!2d-66.64524888836243!3d45.949836470965494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ca4220efd3cc45b%3A0x64f17146ff9984f2!2sUNB%20Faculty%20of%20Computer%20Science!5e0!3m2!1sen!2sca!4v1684250440345!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+     
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>550 Windsor St, Computer Science Information Technology Centre</h5>
+                        <p>Fredericton, NB E3B 5A3</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+1 506-458-7287</h5>
+                        <p>Monday to Friday, 9:00 AM to 5:00 PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>francis.palma@unb.ca</h5>
+                        <p>Email us your query!</p>
+                    </span>
+                </div>
+            </div>
+
+            <div class="contact-col">
+                <form action="form-handler.php" method="post">
+                    <input type="text" name = "name" placeholder="Enter your name" required>
+                    <input type="email" name = "email" placeholder="Enter your email adress" required>
+                    <input type="text" name = "subject" placeholder="Enter your subject" required>
+                    <textarea rows="8" name = "message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
 
     <!------TavaScript for Toggle Menu ------->
     <script>
