@@ -252,9 +252,9 @@ html {
   
   .column {
     float: center;
-    width: 33.3%;
+    width: 33%;
     margin-bottom: 16px;
-    padding: 0 8px;
+    padding: 0 5px;
   }
   
   @media screen and (max-width: 650px) {
