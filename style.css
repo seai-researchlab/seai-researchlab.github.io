@@ -134,7 +134,7 @@ nav .fa{
 }
 
 .vision h2{
-    font-size: 45px;
+    font-size: 42px;
 }
 
 .vision p{
@@ -230,7 +230,7 @@ nav .fa{
 }
 
 .news-lines h2{
-    font-size: 45px;
+    font-size: 42px;
     padding-bottom: 10px;
 }
 
@@ -347,4 +347,10 @@ html {
 
 .news-lines div{
     padding-left: 50px;
+    padding-right: 20px;
+}
+
+.news-lines h3{
+    font-size: 35px;
+    padding-left: 30px;
 }
