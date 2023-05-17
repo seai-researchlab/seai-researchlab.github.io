@@ -67,10 +67,11 @@
             </div>
         
             <div class="contact-col">
-                <form action="https://formspree.io/f/moqzbrkw" method="POST">
-                <label>Your Full Name: <input type="name" placeholder="Your full name" name="name" required></label>    
-                <label>Your Email: <input type="email" placeholder="Your email" name="email" required></label>
-                <label>Your Message: <textarea rows="7" name="message" placeholder="Enter your message here" required></textarea></label>                
+                <form action="form-handler.php" method="post">
+                <input type="text" placeholder="Full name" name="name" required>
+                <input type="email" placeholder="Email address" name="email" required>
+                <input type="text" placeholder="Subject" name="subject" required>
+                <textarea rows="8" name="message" placeholder="Message" required></textarea>
                 <button type="submit" class="hero-btn red-btn">Send Message</button>
                 </form>         
             </div>
