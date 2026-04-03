@@ -396,3 +396,12 @@ html {
 .red-btn:hover{
     color: #fff;
 }
+
+.code-block {
+  border: 1px solid green; /* Example styling */
+  width: 80%;
+}
+.indent {
+  margin-left: 2em; /* Control the tab size with this value */
+}
+
