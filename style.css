@@ -398,6 +398,7 @@ html {
 }
 
 .code-block {
+  font-size: 22px;  
   border: 1px solid green; /* Example styling */
   width: 80%;
 }
