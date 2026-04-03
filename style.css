@@ -355,6 +355,11 @@ html {
     padding-left: 30px;
 }
 
+.news-lines p{
+    font-size: 35px;
+    padding-left: 30px;
+}
+
 .contact-col input, .contact-col textarea{
     width: 100%;
     padding: 15px;
