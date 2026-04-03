@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>SE+AI Research Lab</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="img/logo/logosmall.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">Home</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="publications.html">Publications</a></li>
+                    <li><a href="opportunities.html">Opportunities</a></li>
+                    <li><a href="partners.html">Partners</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Welcome to the SE+AI Research Lab</h1>
+            <p>We focus on core aspects of software quality and software maintenance and evolution.<br>We apply artificial intelligence-based methods and techniques <br>to assist designers and developers in building high-quality software systems.</p>
+        </div>
+    </section>
+
+    <section class="about">
+        
+      <h1>Francis Palma, PhD</h1>
+  <p>
+    <strong>Associate Professor</strong><br>
+    Faculty of Computer Science<br>
+    University of New Brunswick, Canada
+  </p>
+
+  <div class="section">
+    <h2>Profile Summary</h2>
+    <p>
+      Dr. Francis Palma is an Associate Professor at the Faculty of Computer Science at the 
+      <a href="https://www.unb.ca/fredericton/cs/" target="_blank">University of New Brunswick</a>. 
+      He is the Director of the <a href="https://seai-researchlab.github.io" target="_blank">SE+AI Research Lab</a> 
+      and an affiliated member of the <a href="https://www.cs.unb.ca/~hcao3/" target="_blank">Analytics Everywhere Lab</a>. 
+      His work focuses on advancing software engineering through empirical methods and the integration of artificial intelligence techniques.
+    </p>
+    <p>
+      Dr. Palma’s research addresses key challenges in software design, maintenance, and evolution, with a strong emphasis on improving software quality and development processes. His interdisciplinary approach combines traditional software engineering with machine learning to tackle complex real-world problems.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>Current Positions</h2>
+    <ul>
+      <li>
+        Associate Professor (since September 2025)<br>
+        <a href="http://www.cs.unb.ca/~x8kq8/" target="_blank">Personal Academic Page</a>
+      </li>
+      <li>
+        Director, <a href="https://seai-researchlab.github.io" target="_blank">SE+AI Research Lab</a>
+      </li>
+      <li>
+        Affiliated Member, <a href="https://www.cs.unb.ca/~hcao3/" target="_blank">Analytics Everywhere Lab</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Education</h2>
+    <p>
+      Dr. Francis Palma earned his Ph.D. in Computer Engineering (Software Engineering) from the University of Montreal, Canada, in 2015. His doctoral research, titled <em>"Unifying Service-Oriented Technologies for the Specification and Detection of their Antipatterns"</em>, was awarded Best Thesis (2015) by the Department of Software Engineering and Computer Engineering, under the supervision of Dr. Naouel Moha and Dr. Yann-Gaël Guéhéneuc. 
+    </p>
+    <p>
+      He previously completed a Master of Science (M.Sc.) in Computer Science (Software Technologies) at the University of Trento, Italy, in 2010, where his thesis, <em>"Using Interactive Genetic Algorithm for Requirements Prioritization"</em>, was supervised by Dr. Paolo Tonella and Dr. Angelo Susi. 
+    </p>
+    <p>
+      Dr. Palma obtained his Bachelor of Science (B.Sc.) in Computer Science and Engineering from the International Islamic University Chittagong (IIUC), Bangladesh, in 2005. His undergraduate thesis, <em>"An Efficient Technique for Text Compression"</em>, was supervised by Dr. S. M. Kamruzzaman.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>Research Interests</h2>
+    <ul>
+      <li>Empirical Software Engineering</li>
+      <li>Software Design and Implementation Quality</li>
+      <li>Software Maintenance and Evolution</li>
+      <li>Requirements Engineering</li>
+      <li>Machine Learning in Software Engineering</li>
+    </ul>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 Francis Palma. All rights reserved.</p>
+  </footer>
+  
+    </section>
+
+    <!------TavaScript for Toggle Menu ------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
