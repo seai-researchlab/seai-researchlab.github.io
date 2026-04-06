@@ -411,3 +411,9 @@ html {
   margin-left: 2em; /* Control the tab size with this value */
 }
 
+ul.no-bullets {
+    list-style-type: none; /* Removes the bullets */
+    padding: 0;            /* Removes default left padding/indent */
+    margin: 0;             /* Removes default margins */
+}
+
